@@ -139,7 +139,6 @@ def click_search_icon(context):
     context.app.login_page.click_sign_in()
 
 
-
 @given('Click on Edit profile option')
 def edit_profile(context):
     context.app.login_page.edit_profile()
@@ -151,6 +150,6 @@ def input_fields(context):
     sleep(3)
 
 
-@then('Click on Close_')
+@then('Click on Close')
 def click_on_close_(context):
     context.app.login_page.click_on_close_()

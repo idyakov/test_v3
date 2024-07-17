@@ -195,7 +195,7 @@
       <workItem from="1721250348420" duration="1990000" />
       <workItem from="1721252382816" duration="438000" />
       <workItem from="1721252980834" duration="448000" />
-      <workItem from="1721253585986" duration="17000" />
+      <workItem from="1721253585986" duration="917000" />
     </task>
     <servers />
   </component>
@@ -210,7 +210,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/intership_project$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1716859504152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project" />
     <SUITE FILE_PATH="coverage/soft_reelly_io$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1720653602909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/test_v3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721253601755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721258976458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1716863370702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/soft_reelly_io_test_3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721253297196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1716863363627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project/features/steps" />
