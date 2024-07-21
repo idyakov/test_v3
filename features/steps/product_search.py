@@ -153,3 +153,8 @@ def input_fields(context):
 @then('Click on Close')
 def click_on_close_(context):
     context.app.login_page.click_on_close_()
+
+
+@given('Change the language')
+def dropdown_language(context):
+    context.app.base_page.dropdown_language()

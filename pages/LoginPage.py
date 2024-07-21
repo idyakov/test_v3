@@ -19,7 +19,7 @@ class LoginPage(Page):
     CLICK_SAVE = (By.XPATH, "//div[contains(@wized, 'saveButtonProfile') and contains(@class, 'save-changes-button')]")
     CLICK_CLOSE = (By.XPATH, "//div[contains(@class, 'profile-button') and contains(., 'Close')]")
     CLICK_CONNECT = (By.XPATH, "//div[contains(text(), 'Connect the company')]")
-
+    CLICK_MAIN_MENU = (By.XPATH, "//div[contains(@class, 'menu-button-text') and contains(., 'Main menu')]")
     def __init__(self, driver: WebDriver):
         super().__init__(driver)
 
@@ -97,3 +97,7 @@ class LoginPage(Page):
         assert current_url == expected_url, f"Expected URL {expected_url}, but got {current_url}"
 
         return current_url
+
+
+    def click_on_main_menu(self):
+        self.click(*self.CLICK_MAIN_MENU)
