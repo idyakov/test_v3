@@ -5,5 +5,5 @@ Feature: Test Scenarios for Search functionality of soft.reelly page
     And Click on continue button of the login page
     And Click on menu
     And Change the language of the main page
-    And Verify the languange has changed
+    And Verify the language has changed
 

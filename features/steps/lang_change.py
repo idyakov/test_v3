@@ -31,6 +31,6 @@ def dropdown_language(context):
     context.app.base_page.change_language()
 
 
-@given('Verify the languange has changed')
+@given('Verify the language has changed')
 def verify_menu_title(context):
     context.app.base_page.verify_menu_title()
