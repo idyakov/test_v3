@@ -6,5 +6,5 @@ Feature: Project functionality execution
     And Click on settings open__
     And Click on Add a project
     And Add test information to the input fields
-    And Verify the right information is present in the input field
+    And Verify the right information is present in the portion input fields
     Then Verify _Send an application_ button is available and clickable

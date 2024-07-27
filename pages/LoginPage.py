@@ -7,16 +7,18 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 
 class LoginPage(Page):
+    #Project related locators
     SEND_AN_APPLICATION_BUTTON = (By.XPATH, "//input[contains(@class, 'purchase-access w-button') and contains(@value, 'Send an application')]")
-    INPUT_PROJECT_EMAIL = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Email-add-project')]")
-    INPUT_PROJECT_PHONE = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Phone')]")
-    INPUT_PROJECT_NAME = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Name-project')]")
-    INPUT_PROJECT_COUNTRY = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Country')]")
-    INPUT_PROJECT_FIELD_NAME = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Your-name')]")
-    INPUT_PROJECT_FIELD_COMPANY = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Your-company-name')]")
-    INPUT_PROJECT_FIELD_ROLE = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Role')]")
-    INPUT_PROJECT_AGE = (By.XPATH, "//input[contains(@class, 'input book w-input') and contains(@name, 'Age-of-the-company')]")
+    INPUT_PROJECT_EMAIL = (By.CSS_SELECTOR, '[id="Email-add-project"]')
+    INPUT_PROJECT_PHONE = (By.CSS_SELECTOR, '[id="Phone"]')
+    INPUT_PROJECT_NAME = (By.CSS_SELECTOR, '[id="Name-project"]')
+    INPUT_PROJECT_COUNTRY = (By.CSS_SELECTOR, '[id="Country"]')
+    INPUT_PROJECT_FIELD_NAME = (By.CSS_SELECTOR, '[id="Your-name"]')
+    INPUT_PROJECT_FIELD_COMPANY = (By.CSS_SELECTOR, '[id="Your-company-name"]')
+    INPUT_PROJECT_FIELD_ROLE = (By.CSS_SELECTOR, '[id="Role"]')
+    INPUT_PROJECT_AGE = (By.CSS_SELECTOR, '[id="Age-of-the-company"]')
     ADD_PROJECT = (By.XPATH, "//div[contains(text(), 'Add a project')]")
+
     CONTINUE_BUTTON = (By.CSS_SELECTOR, 'a[class="login-button w-button"]')
     SIGN_IN_BUTTON_MAIN_PAGE = (By.CSS_SELECTOR, 'span[class="styles__LinkText-sc-1e1g60c-3 dZfgoT h-margin-r-x3"]')
     REELLY_EMAIL = (By.CSS_SELECTOR, "[id*='email-2']")  # input email
@@ -133,23 +135,23 @@ class LoginPage(Page):
             EC.presence_of_element_located(self.INPUT_PROJECT_EMAIL)
         )
         text_message_email = element_email.get_attribute('value')
-        print(f'The email chosen is - "{text_message_email}"')
+        print(f'The email input field verification - "{text_message_email}"')
 
         element_name = WebDriverWait(self.driver, 3).until(
             EC.presence_of_element_located(self.INPUT_PROJECT_FIELD_NAME)
         )
         text_message_name = element_name.get_attribute('value')
-        print(f'The name chosen is - "{text_message_name}"')
+        print(f'The name input field verification - "{text_message_name}"')
 
         element_company = WebDriverWait(self.driver, 3).until(
             EC.presence_of_element_located(self.INPUT_PROJECT_FIELD_COMPANY)
         )
         text_message_company = element_company.get_attribute('value')
-        print(f'The company name chosen is - "{text_message_company}"')
+        print(f'The company name input field verification - "{text_message_company}"')
 
     def send_application_button_verification(self):
         send_application_button = WebDriverWait(self.driver, 3).until(
             EC.presence_of_element_located(self.SEND_AN_APPLICATION_BUTTON)
         )
         is_button_clickable = send_application_button.is_enabled() and send_application_button.is_displayed()
-        print(f'The "Send an application" button is available and clickable: {is_button_clickable}')
+        print(f'The "Send an application" button is available and clickable. No error: {is_button_clickable}')

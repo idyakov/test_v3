@@ -16,7 +16,7 @@ def input_project_info(context):
     sleep(3)
 
 
-@given('Verify the right information is present in the input field')
+@given('Verify the right information is present in the portion input fields')
 def input_field_verification(context):
     context.app.login_page.input_field_verification()
     sleep(3)
