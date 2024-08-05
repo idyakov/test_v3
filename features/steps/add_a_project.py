@@ -13,7 +13,6 @@ def click_search_icon(context):
 @given('Add test information to the input fields')
 def input_project_info(context):
     context.app.project_page.input_project_info()
-    sleep(3)
 
 
 @given("Verify the right information is present for {email}")
@@ -25,10 +24,8 @@ def input_field_verification(context, email):
     # email = add_project_page.get_email_value()
     # Assert only the email value
     assert email == "rabochiy_krestyanin@gmail.com", f"Expected email 'rabochiy_krestyanin@gmail.com', but got '{email}'"
-    sleep(3)
 
 
 @then('Verify _Send an application_ button is available and clickable')
 def send_application_button_verification(context):
     context.app.project_page.send_application_button_verification()
-    sleep(3)
