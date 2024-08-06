@@ -5,6 +5,9 @@ from pages.MainPage import MainPage
 # from pages.header import Header
 from pages.LoginPage import LoginPage
 from pages.community_page import CommunityPage
+from pages.ContactUs import ContactUs
+
+
 
 
 class Application:
@@ -15,4 +18,5 @@ class Application:
         self.login_page = LoginPage(driver)
         self.project_page = AddProjectPage(driver)
         self.community_page = CommunityPage(driver)
+        self.contact_page = ContactUs(driver)
         # self.home_page = HomePage(driver)
