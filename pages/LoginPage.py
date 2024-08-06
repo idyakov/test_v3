@@ -9,7 +9,7 @@ from selenium.webdriver.remote.webdriver import WebDriver
 class LoginPage(Page):
     #Project related locators
     SEND_AN_APPLICATION_BUTTON = (
-    By.XPATH, "//input[contains(@class, 'purchase-access w-button') and contains(@value, 'Send an application')]")
+        By.XPATH, "//input[contains(@class, 'purchase-access w-button') and contains(@value, 'Send an application')]")
     INPUT_PROJECT_EMAIL = (By.CSS_SELECTOR, '[id="Email-add-project"]')
     INPUT_PROJECT_PHONE = (By.CSS_SELECTOR, '[id="Phone"]')
     INPUT_PROJECT_NAME = (By.CSS_SELECTOR, '[id="Name-project"]')
@@ -56,7 +56,7 @@ class LoginPage(Page):
         self.input_text('dyak.ilya@gmail.com', *self.REELLY_EMAIL)  #input your own registered email
         self.input_text('XrvzakG!E4i@Zzh', *self.REELLY_PASSWORD)  #input your own registered password
 
-    def click_on_settings_(self):
+    def click_on_settings(self):
         self.click(*self.CLICK_SETTINGS)
 
     def edit_profile(self):
@@ -92,6 +92,9 @@ class LoginPage(Page):
 
     def click_on_page_company(self):
         self.click(*self.CLICK_CONNECT)
+
+    def click_on_settings_(self):
+        self.click(*self.CLICK_SETTINGS)
 
     def switch_to_new_window(self):
         self.wait.until(EC.new_window_is_opened)

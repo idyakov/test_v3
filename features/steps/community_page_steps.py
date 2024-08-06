@@ -5,10 +5,27 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-@when('Open the main_page')
+@given('Open the main_page')
 def open_soft_reelly(context):
     context.app.main_page.open_main()
-    sleep(5)
+    WebDriverWait(context.driver, 10).until(
+        EC.presence_of_element_located((By.TAG_NAME, "body"))
+    )
+
+
+@given('Log in to the main page')
+def input_credentials(context):
+    context.app.community_page.input_credentials()
+
+
+@given('Click on continue button')
+def click_search_icon(context):
+    context.app.login_page.click_sign_in()
+
+
+@when('Click on settings open')
+def click_on_settings(context):
+    context.app.login_page.click_on_settings()
 
 
 @when('Click on Community option')
@@ -26,16 +43,6 @@ def contact_support_button_verification(context):
     context.app.community_page.contact_support_button_verification()
 
 
-@when('Log in to the main page')
-def input_credentials(context):
-    context.app.community_page.input_credentials()
-
-
-@when('Click on settings open')
-def click_on_settings(context):
-    context.app.community_page.click_on_settings()
-
-
 @then('Verify the right_page opens and contains {url_portion}')
 def verify_new_tab_page(context, url_portion):
     expected_url = 'https://soft.reelly.io/community'
@@ -47,6 +54,11 @@ def verify_new_tab_page(context, url_portion):
     assert url_portion.lower() in actual_url.lower(), f"URL does not contain '{url_portion}'"
 
 
-@when('Click on_continue button')
-def click_search_icon(context):
-    context.app.community_page.click_sign_in()
+@then('Verify “Telegram_english_chat” button is available and clickable')
+def contact_support_button_verification(context):
+    context.app.community_page.join_english_button_verification()
+
+
+@then('Verify “Telegram_russian_chat” button is available and clickable')
+def contact_support_button_verification(context):
+    context.app.community_page.join_russian_button_verification()

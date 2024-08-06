@@ -134,7 +134,7 @@ def input_credentials(context):
     context.app.login_page.input_credentials()
 
 
-@given('Click on continue button')
+@when('Click on continue button')
 def click_search_icon(context):
     context.app.login_page.click_sign_in()
 

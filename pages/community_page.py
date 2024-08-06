@@ -1,7 +1,6 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from pages.base_page import Page
 from selenium.webdriver.common.by import By
-from time import sleep
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webdriver import WebDriver
 
@@ -15,6 +14,10 @@ class CommunityPage(Page):
     CONTACT_SUPPORT_BUTTON = (
         By.XPATH, "(//a[@href='https://t.me/reelly_dubai_bot?start=w18415667' and contains(text(), 'Contact "
                   "support')])[2]")
+    JOIN_ENGLISH_BUTTON = (
+        By.XPATH, "(//a[@href='https://t.me/+JUKua5KkMUU3ZWMy' and contains(text(), 'Join English Chat')])[2]")
+    JOIN_RUSSIAN_BUTTON = (
+        By.XPATH, "(//a[@href='https://t.me/+6alZhFH7npFmYjA6' and contains(text(), 'Join Russian Chat')])[2]")
     REELLY_EMAIL = (By.CSS_SELECTOR, "[id*='email-2']")  # input email
     REELLY_PASSWORD = (By.CSS_SELECTOR, "[id*='field']")  # input password
 
@@ -28,9 +31,6 @@ class CommunityPage(Page):
 
     def click_sign_in(self):
         self.click(*self.CONTINUE_BUTTON)
-
-    def click_on_settings(self):
-        self.click(*self.CLICK_SETTINGS)
 
     def click_on_community(self):
         self.click(*self.CLICK_COMMUNITY_PAGE)
@@ -47,3 +47,17 @@ class CommunityPage(Page):
         )
         is_support_button_clickable = contact_support_button.is_enabled() and contact_support_button.is_displayed()
         print(f'The "Contact support" button is available and clickable. No error: {is_support_button_clickable}')
+
+    def join_english_button_verification(self):
+        join_english_button = WebDriverWait(self.driver, 3).until(
+            EC.presence_of_element_located(self.JOIN_ENGLISH_BUTTON)
+        )
+        is_join_english_button_clickable = join_english_button.is_enabled() and join_english_button.is_displayed()
+        print(f'The "JOIN_ENGLISH_CHAT_BOT" button is available and clickable.')
+
+    def join_russian_button_verification(self):
+        join_russian_button = WebDriverWait(self.driver, 3).until(
+            EC.presence_of_element_located(self.JOIN_RUSSIAN_BUTTON)
+        )
+        is_join_russian_button_clickable = join_russian_button.is_enabled() and join_russian_button.is_displayed()
+        print(f'The "JOIN_RUSSIAN_CHAT_BOT" button is available and clickable.')
