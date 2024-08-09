@@ -19,6 +19,10 @@ class ContactUs(Page):
             for icon_locator in self.SOCIAL_MEDIA_ICONS:
                 if self.is_element_present(icon_locator):
                     icon_count += 1
+
+            assert icon_count >= 4, f"Expected at least 4 social media icons, but found {icon_count}"
+            print(f"Found {icon_count} social media icons")
+
             return icon_count
         except Exception as e:
             print(f"Error counting social media icons: {e}")
@@ -36,10 +40,13 @@ class ContactUs(Page):
     def click_on_contact_us(self):
         self.click(*self.CLICK_CONTACT_US)
 
-    def verify_contact_tab_page(self, verify_expected_page):
-        WebDriverWait(self.driver, 10).until(EC.url_to_be(verify_expected_page))
+    def verify_contact_tab_page(self):
+        expected_url = 'https://soft.reelly.io/contact-us'
+        WebDriverWait(self.driver, 10).until(EC.url_to_be(expected_url))
         current_url = self.driver.current_url
-        assert current_url == verify_expected_page, f"Expected URL {verify_expected_page}, but got {current_url}"
+        assert current_url == expected_url, f"Expected URL {expected_url}, but got {current_url}"
+        print(f"Successfully verified the contact page with URL: {current_url}")
+
         return current_url
 
     def connect_the_company_button_verification(self):

@@ -7,10 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @given('Open the main_page')
 def open_soft_reelly(context):
-    context.app.main_page.open_main()
-    WebDriverWait(context.driver, 10).until(
-        EC.presence_of_element_located((By.TAG_NAME, "body"))
-    )
+    context.app.community_page.open_main()
 
 
 @given('Log in to the main page')
@@ -35,7 +32,7 @@ def click_on_community(context):
 
 @then('Verify expected URLVerify the right page opens')
 def verify_page(context):
-    context.app.community_page.verify_expected_page('https://soft.reelly.io/community')
+    context.app.community_page.verify_expected_page()
 
 
 @then('Verify “Contact support” button is available and clickable')
@@ -45,13 +42,8 @@ def contact_support_button_verification(context):
 
 @then('Verify the right_page opens and contains {url_portion}')
 def verify_new_tab_page(context, url_portion):
-    expected_url = 'https://soft.reelly.io/community'
-    actual_url = context.app.community_page.verify_expected_page(expected_url)
-    assert actual_url == expected_url, f"Expected URL {expected_url}, but got {actual_url}"
-    print(f"Successfully verified the community page with '{url_portion}' content")
-    actual_url = context.driver.current_url
-    assert actual_url.startswith(actual_url), f"URL does not start with {actual_url}"
-    assert url_portion.lower() in actual_url.lower(), f"URL does not contain '{url_portion}'"
+    expected_url = f'https://soft.reelly.io/{url_portion}'
+    context.app.community_page.verify_expected_page(expected_url, url_portion)
 
 
 @then('Verify “Telegram_english_chat” button is available and clickable')

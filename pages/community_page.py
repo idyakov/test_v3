@@ -6,6 +6,24 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 
 class CommunityPage(Page):
+
+    def __init__(self, driver: WebDriver):
+        super().__init__(driver)
+        self.base_url = "https://soft.reelly.io/community"
+        self.default_pw = 'Password'
+
+    def open(self):
+        self.driver.get(self.base_url)
+
+    def open_main(self):
+        self.driver.get(self.base_url)
+        self.wait_for_page_load()
+
+    def wait_for_page_load(self):
+        WebDriverWait(self.driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+
     CONTINUE_BUTTON = (By.CSS_SELECTOR, 'a[class="login-button w-button"]')
     SIGN_IN_BUTTON_MAIN_PAGE = (By.CSS_SELECTOR, 'span[class="styles__LinkText-sc-1e1g60c-3 dZfgoT h-margin-r-x3"]')
     CLICK_SETTINGS = (By.XPATH, "//div[contains(@class, 'menu-button-text') and text()='Settings']")
@@ -21,10 +39,6 @@ class CommunityPage(Page):
     REELLY_EMAIL = (By.CSS_SELECTOR, "[id*='email-2']")  # input email
     REELLY_PASSWORD = (By.CSS_SELECTOR, "[id*='field']")  # input password
 
-    def __init__(self, driver: WebDriver):
-        super().__init__(driver)
-        self.default_pw = 'Password'
-
     def input_credentials(self):
         self.input_text('dyak.ilya@gmail.com', *self.REELLY_EMAIL)  #input your own registered email
         self.input_text('XrvzakG!E4i@Zzh', *self.REELLY_PASSWORD)  #input your own registered password
@@ -35,10 +49,15 @@ class CommunityPage(Page):
     def click_on_community(self):
         self.click(*self.CLICK_COMMUNITY_PAGE)
 
-    def verify_expected_page(self, verify_expected_page):
-        WebDriverWait(self.driver, 10).until(EC.url_to_be(verify_expected_page))
+    def verify_expected_page(self, expected_url, url_portion=None):
+        WebDriverWait(self.driver, 10).until(EC.url_to_be(expected_url))
         current_url = self.driver.current_url
-        assert current_url == verify_expected_page, f"Expected URL {verify_expected_page}, but got {current_url}"
+        assert current_url == expected_url, f"Expected URL {expected_url}, but got {current_url}"
+        if url_portion:
+            assert url_portion.lower() in current_url.lower(), f"URL does not contain '{url_portion}'"
+            print(f"Successfully verified the page with '{url_portion}' content")
+        else:
+            print(f"Successfully verified the page with the expected URL: {expected_url}")
         return current_url
 
     def contact_support_button_verification(self):
