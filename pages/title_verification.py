@@ -11,12 +11,18 @@ class TitleVerification(Page):
     def click_on_user_guide(self):
         self.click(*self.USER_GUIDE)
 
-    def verify_title_page(self):
-        expected_url = 'https://soft.reelly.io/user-guide'
-        WebDriverWait(self.driver, 10).until(EC.url_to_be(expected_url))
+    def verify_title_page(self, expected_url_portion):
+        expected_base_url = 'https://soft.reelly.io/user-guide'
+        WebDriverWait(self.driver, 10).until(EC.url_to_be(expected_base_url))
         current_url = self.driver.current_url
-        assert current_url == expected_url, f"Expected URL {expected_url}, but got {current_url}"
-        print(f"Successfully verified the contact page with URL: {current_url}")
+        try:
+            assert expected_base_url in current_url, f"Expected URL {expected_base_url}, but got {current_url}"
+            assert expected_url_portion in current_url, f"Expected URL to contain '{expected_url_portion}', but got '{current_url}'"
+            print(f"Successfully verified the contact page with URL: {current_url}")
+            print(f"URL contains expected portion: '{expected_url_portion}'")
+        except AssertionError as e:
+            print(f"URL verification failed: {str(e)}")
+            raise
         return current_url
 
     def verify_all_lesson(self):

@@ -15,9 +15,9 @@ def click_search_icon(context):
     context.app.title_verification.click_on_user_guide()
 
 
-@then('Verify the right page user_guide opens')
-def verify_contact_tab_page(context):
-    context.app.title_verification.verify_title_page()
+@then('Verify the right page user_guide opens and contains {url_portion}')
+def verify_contact_tab_page(context, url_portion):
+    context.app.title_verification.verify_title_page(url_portion)
 
 
 @then('Verify all lesson videos contain titles')

@@ -39,9 +39,6 @@ class CommunityPage(Page):
     REELLY_EMAIL = (By.CSS_SELECTOR, "[id*='email-2']")  # input email
     REELLY_PASSWORD = (By.CSS_SELECTOR, "[id*='field']")  # input password
 
-    def input_credentials(self):
-        self.input_text('dyak.ilya@gmail.com', *self.REELLY_EMAIL)  #input your own registered email
-        self.input_text('XrvzakG!E4i@Zzh', *self.REELLY_PASSWORD)  #input your own registered password
 
     def click_sign_in(self):
         self.click(*self.CONTINUE_BUTTON)

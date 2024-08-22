@@ -12,7 +12,7 @@ def open_soft_reelly(context):
 
 @given('Log in to the main page')
 def input_credentials(context):
-    context.app.community_page.input_credentials()
+    context.app.login_page.input_credentials()
 
 
 @given('Click on continue button')

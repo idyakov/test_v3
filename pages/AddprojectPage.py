@@ -52,9 +52,6 @@ class AddProjectPage(Page):
     def click_sign_in(self):
         self.click(*self.CONTINUE_BUTTON)
 
-    def input_credentials(self):
-        self.input_text('dyak.ilya@gmail.com', *self.REELLY_EMAIL)  #input your own registered email
-        self.input_text('XrvzakG!E4i@Zzh', *self.REELLY_PASSWORD)  #input your own registered password
 
     def click_on_settings_(self):
         self.click(*self.CLICK_SETTINGS)
