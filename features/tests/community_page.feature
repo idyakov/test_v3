@@ -11,5 +11,3 @@ Feature: Test Scenarios for open the community page functionality
     Then Verify “Contact support” button is available and clickable
 
 
-
-

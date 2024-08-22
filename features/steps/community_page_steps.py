@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 @given('Open the main_page')
 def open_soft_reelly(context):
-    context.app.community_page.open_main()
+    context.app.main_page.open_main()
 
 
 @given('Log in to the main page')

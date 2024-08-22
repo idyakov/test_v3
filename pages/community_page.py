@@ -15,9 +15,9 @@ class CommunityPage(Page):
     def open(self):
         self.driver.get(self.base_url)
 
-    def open_main(self):
-        self.driver.get(self.base_url)
-        self.wait_for_page_load()
+    # def open_main(self):
+    #     self.driver.get(self.base_url)
+    #     self.wait_for_page_load()
 
     def wait_for_page_load(self):
         WebDriverWait(self.driver, 10).until(
