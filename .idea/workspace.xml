@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b240038-7d69-401a-b906-1bb877615955" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/community_page_steps.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/community_page_steps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/title_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/title_verification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/title_verification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/title_verification.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/AddprojectPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/AddprojectPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/community_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/community_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/title_verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/title_verification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/add_a_project.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_5.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/change_window.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_4.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/community_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_6.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/contact_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_7.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/lang_change.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_3.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/product_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_2.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/title_verification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_8.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +40,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Behave.add_a_project.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.change_window.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.community_page.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.community_page.feature:User able add a project via the settings menu.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.contact_page.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.contact_page.feature:User able to open and verify the Contact page.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.lang_change.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.product_search.feature (1).executor&quot;: &quot;Run&quot;,
-    &quot;Behave.product_search.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Behave.title_verification.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Python.add_a_project.executor&quot;: &quot;Run&quot;,
-    &quot;Python.change_window.executor&quot;: &quot;Run&quot;,
-    &quot;Python.community_page_steps.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lang_change.executor&quot;: &quot;Run&quot;,
-    &quot;Python.product_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sample_script.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/test_v3/pages&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Behave.Scenario_8.feature.executor": "Run",
+    "Behave.add_a_project.feature.executor": "Run",
+    "Behave.change_window.feature.executor": "Run",
+    "Behave.community_page.feature.executor": "Run",
+    "Behave.community_page.feature:User able add a project via the settings menu.executor": "Run",
+    "Behave.contact_page.feature.executor": "Run",
+    "Behave.contact_page.feature:User able to open and verify the Contact page.executor": "Run",
+    "Behave.lang_change.feature.executor": "Run",
+    "Behave.product_search.feature (1).executor": "Run",
+    "Behave.product_search.feature.executor": "Run",
+    "Behave.title_verification.feature.executor": "Run",
+    "Python.add_a_project.executor": "Run",
+    "Python.change_window.executor": "Run",
+    "Python.community_page_steps.executor": "Run",
+    "Python.lang_change.executor": "Run",
+    "Python.product_search.executor": "Run",
+    "Python.sample_script.executor": "Run",
+    "Python.test (1).executor": "Run",
+    "Python.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/PycharmProjects/test_v3/pages",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\test_v3\pages" />
@@ -81,7 +85,22 @@
       <recent name="C:\Users\User\PycharmProjects\intership_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.title_verification.feature">
+  <component name="RunManager" selected="Behave.Scenario_8.feature">
+    <configuration name="Scenario_8.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="test_v3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Scenario_8.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="community_page.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
@@ -94,21 +113,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/community_page.feature" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="contact_page.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
-      <module name="test_v3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/contact_page.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -175,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.Scenario_8.feature" />
         <item itemvalue="Behave.title_verification.feature" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Behave.community_page.feature" />
         <item itemvalue="Python.community_page_steps" />
-        <item itemvalue="Behave.contact_page.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +281,9 @@
       <workItem from="1724263347722" duration="310000" />
       <workItem from="1724278394895" duration="5666000" />
       <workItem from="1724289233017" duration="9566000" />
-      <workItem from="1724355273690" duration="2780000" />
+      <workItem from="1724355273690" duration="4351000" />
+      <workItem from="1724425747771" duration="1042000" />
+      <workItem from="1724635074785" duration="484000" />
     </task>
     <servers />
   </component>
@@ -296,9 +302,10 @@
     <SUITE FILE_PATH="coverage/test_v3$community_page_steps.coverage" NAME="community_page_steps Coverage Results" MODIFIED="1723237621252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$community_page_feature.coverage" NAME="community_page.feature Coverage Results" MODIFIED="1723240358960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/soft_reelly_io_test_3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721253297196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$Scenario_8_feature.coverage" NAME="Scenario_8.feature Coverage Results" MODIFIED="1724635304197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$lang_change.coverage" NAME="lang_change Coverage Results" MODIFIED="1721527314170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1723569440009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/test_v3$title_verification_feature.coverage" NAME="title_verification.feature Coverage Results" MODIFIED="1724357682899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$title_verification_feature.coverage" NAME="title_verification.feature Coverage Results" MODIFIED="1724426606811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1716863363627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$contact_page_feature_User_able_to_open_and_verify_the_Contact_page.coverage" NAME="contact_page.feature:User able to open and verify the Contact page Coverage Results" MODIFIED="1722984484972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$lang_change_feature.coverage" NAME="lang_change.feature Coverage Results" MODIFIED="1722827956070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
