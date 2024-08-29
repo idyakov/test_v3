@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b240038-7d69-401a-b906-1bb877615955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/sc_9_change_pwd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/tests/Scenario_9.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/change_pwd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/Scenario_9.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_9.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +35,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Behave.Scenario_8.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_9.feature.executor&quot;: &quot;Run&quot;,
     &quot;Behave.add_a_project.feature.executor&quot;: &quot;Run&quot;,
     &quot;Behave.change_window.feature.executor&quot;: &quot;Run&quot;,
     &quot;Behave.community_page.feature.executor&quot;: &quot;Run&quot;,
@@ -275,7 +273,8 @@
       <workItem from="1724641355138" duration="19000" />
       <workItem from="1724777590687" duration="3692000" />
       <workItem from="1724940810154" duration="5223000" />
-      <workItem from="1724961077041" duration="1705000" />
+      <workItem from="1724961077041" duration="2133000" />
+      <workItem from="1724966830541" duration="148000" />
     </task>
     <servers />
   </component>
@@ -289,27 +288,28 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/intership_project$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1716859504152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project" />
-    <SUITE FILE_PATH="coverage/soft_reelly_io$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1720653602909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/test_v3$add_a_project_feature.coverage" NAME="add_a_project.feature Coverage Results" MODIFIED="1722907134477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$community_page_steps.coverage" NAME="community_page_steps Coverage Results" MODIFIED="1723237621252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/test_v3$community_page_feature.coverage" NAME="community_page.feature Coverage Results" MODIFIED="1723240358960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/soft_reelly_io_test_3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721253297196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$Scenario_8_feature.coverage" NAME="Scenario_8.feature Coverage Results" MODIFIED="1724635304197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/test_v3$lang_change.coverage" NAME="lang_change Coverage Results" MODIFIED="1721527314170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/test_v3$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1723569440009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$title_verification_feature.coverage" NAME="title_verification.feature Coverage Results" MODIFIED="1724426606811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1716863363627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$contact_page_feature_User_able_to_open_and_verify_the_Contact_page.coverage" NAME="contact_page.feature:User able to open and verify the Contact page Coverage Results" MODIFIED="1722984484972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/test_v3$lang_change_feature.coverage" NAME="lang_change.feature Coverage Results" MODIFIED="1722827956070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1722827963779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intership_project$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1716863370702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1721526857798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/test_v3$Scenario_9_feature.coverage" NAME="Scenario_9.feature Coverage Results" MODIFIED="1724965749669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/soft_reelly_io$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1720653602909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$add_a_project_feature.coverage" NAME="add_a_project.feature Coverage Results" MODIFIED="1722907134477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$community_page_feature.coverage" NAME="community_page.feature Coverage Results" MODIFIED="1723240358960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/soft_reelly_io_test_3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1721253297196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1723569440009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/test_v3$lang_change.coverage" NAME="lang_change Coverage Results" MODIFIED="1721527314170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
+    <SUITE FILE_PATH="coverage/test_v3$lang_change_feature.coverage" NAME="lang_change.feature Coverage Results" MODIFIED="1722827956070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$change_window_feature.coverage" NAME="change_window.feature Coverage Results" MODIFIED="1722286001628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$test.coverage" NAME="test Coverage Results" MODIFIED="1723172651812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/intership_project$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1716863370702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$add_a_project.coverage" NAME="add_a_project Coverage Results" MODIFIED="1722887267840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/test_v3$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1721526857798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$change_window.coverage" NAME="change_window Coverage Results" MODIFIED="1721527249963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$contact_page_feature.coverage" NAME="contact_page.feature Coverage Results" MODIFIED="1723237605051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/intership_project$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1720214556300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$community_page_feature_User_able_add_a_project_via_the_settings_menu.coverage" NAME="community_page.feature:User able add a project via the settings menu Coverage Results" MODIFIED="1722887471232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intership_project$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1720214556300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
