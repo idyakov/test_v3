@@ -7,6 +7,7 @@ from pages.LoginPage import LoginPage
 from pages.community_page import CommunityPage
 from pages.ContactUs import ContactUs
 from pages.title_verification import TitleVerification
+from pages.change_pwd import Change_pwd
 
 
 class Application:
@@ -19,4 +20,5 @@ class Application:
         self.community_page = CommunityPage(driver)
         self.contact_page = ContactUs(driver)
         self.title_verification = TitleVerification(driver)
+        self.change_pwd = Change_pwd(driver)
         # self.home_page = HomePage(driver)

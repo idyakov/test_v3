@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b240038-7d69-401a-b906-1bb877615955" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/sc_9_change_pwd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/tests/Scenario_9.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/change_pwd.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/add_a_project.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_5.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/change_window.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_4.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/community_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_6.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/contact_page.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_7.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/lang_change.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_3.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/product_search.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_2.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/title_verification.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/Scenario_8.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,40 +35,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Behave.Scenario_8.feature.executor": "Run",
-    "Behave.add_a_project.feature.executor": "Run",
-    "Behave.change_window.feature.executor": "Run",
-    "Behave.community_page.feature.executor": "Run",
-    "Behave.community_page.feature:User able add a project via the settings menu.executor": "Run",
-    "Behave.contact_page.feature.executor": "Run",
-    "Behave.contact_page.feature:User able to open and verify the Contact page.executor": "Run",
-    "Behave.lang_change.feature.executor": "Run",
-    "Behave.product_search.feature (1).executor": "Run",
-    "Behave.product_search.feature.executor": "Run",
-    "Behave.title_verification.feature.executor": "Run",
-    "Python.add_a_project.executor": "Run",
-    "Python.change_window.executor": "Run",
-    "Python.community_page_steps.executor": "Run",
-    "Python.lang_change.executor": "Run",
-    "Python.product_search.executor": "Run",
-    "Python.sample_script.executor": "Run",
-    "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/test_v3/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Behave.Scenario_8.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.add_a_project.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.change_window.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.community_page.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.community_page.feature:User able add a project via the settings menu.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.contact_page.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.contact_page.feature:User able to open and verify the Contact page.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.lang_change.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.product_search.feature (1).executor&quot;: &quot;Run&quot;,
+    &quot;Behave.product_search.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.title_verification.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_a_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change_window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.community_page_steps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lang_change.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/test_v3/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\test_v3\pages" />
@@ -85,7 +80,7 @@
       <recent name="C:\Users\User\PycharmProjects\intership_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.Scenario_8.feature">
+  <component name="RunManager" selected="Behave.Scenario_9.feature">
     <configuration name="Scenario_8.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
@@ -98,6 +93,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Scenario_8.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scenario_9.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="test_v3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Scenario_9.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -131,29 +141,6 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="community_page_steps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test_v3" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/community_page_steps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
@@ -179,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.Scenario_9.feature" />
         <item itemvalue="Behave.Scenario_8.feature" />
         <item itemvalue="Behave.title_verification.feature" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Behave.community_page.feature" />
-        <item itemvalue="Python.community_page_steps" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +271,11 @@
       <workItem from="1724355273690" duration="4351000" />
       <workItem from="1724425747771" duration="1042000" />
       <workItem from="1724635074785" duration="484000" />
+      <workItem from="1724635569077" duration="51000" />
+      <workItem from="1724641355138" duration="19000" />
+      <workItem from="1724777590687" duration="3692000" />
+      <workItem from="1724940810154" duration="5223000" />
+      <workItem from="1724961077041" duration="1705000" />
     </task>
     <servers />
   </component>
