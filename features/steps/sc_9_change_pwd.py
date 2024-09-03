@@ -5,9 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-@given('Open the main_page for change_pwd')
-def open_soft_reelly(context):
-    context.app.main_page.open_main()
+# @given('Open the main_page for change_pwd')
+# def open_soft_reelly(context):
+#     context.app.main_page.open_main()
 
 
 @when('Click on change password')
