@@ -96,7 +96,7 @@ class LoginPage(Page):
     def click_on_settings_(self):
         self.click(*self.CLICK_SETTINGS)
 
-    def switch_to_new_window(self):
+    def switch_to_new_tab(self):
         self.wait.until(EC.new_window_is_opened)
         all_windows = self.driver.window_handles
         print('All_windows:', self.driver.window_handles)

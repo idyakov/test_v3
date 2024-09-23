@@ -9,7 +9,7 @@ from pages.ContactUs import ContactUs
 from pages.title_verification import TitleVerification
 from pages.change_pwd import Change_pwd
 from pages.subscr_payment import Subscription
-
+from pages.access_social_media import AccessSocialMedia
 
 class Application:
     def __init__(self, driver):
@@ -23,4 +23,5 @@ class Application:
         self.title_verification = TitleVerification(driver)
         self.change_pwd = Change_pwd(driver)
         self.subscr_payment = Subscription(driver)
+        self.access_social_media = AccessSocialMedia(driver)
         # self.home_page = HomePage(driver)
