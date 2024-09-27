@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b240038-7d69-401a-b906-1bb877615955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/steps/sc_11_support_social_media.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/tests/Scenario_11.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/access_social_media.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/steps/sc_12_number_verification.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/tests/Scenario_12.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/number_options_verification.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,50 +35,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Behave.Scenario_10.feature.executor": "Run",
-    "Behave.Scenario_11.feature.executor": "Run",
-    "Behave.Scenario_4.feature.executor": "Run",
-    "Behave.Scenario_8.feature.executor": "Run",
-    "Behave.Scenario_9.feature.executor": "Run",
-    "Behave.add_a_project.feature.executor": "Run",
-    "Behave.change_window.feature.executor": "Run",
-    "Behave.community_page.feature.executor": "Run",
-    "Behave.community_page.feature:User able add a project via the settings menu.executor": "Run",
-    "Behave.contact_page.feature.executor": "Run",
-    "Behave.contact_page.feature:User able to open and verify the Contact page.executor": "Run",
-    "Behave.lang_change.feature.executor": "Run",
-    "Behave.product_search.feature (1).executor": "Run",
-    "Behave.product_search.feature.executor": "Run",
-    "Behave.title_verification.feature.executor": "Run",
-    "Python.add_a_project.executor": "Run",
-    "Python.change_window.executor": "Run",
-    "Python.community_page_steps.executor": "Run",
-    "Python.jobber_app.executor": "Run",
-    "Python.lang_change.executor": "Run",
-    "Python.parcing (1).executor": "Run",
-    "Python.paring (1).executor": "Run",
-    "Python.paring.executor": "Run",
-    "Python.product_search.executor": "Run",
-    "Python.sample_script.executor": "Run",
-    "Python.sc_10_subscr_payment.executor": "Run",
-    "Python.telegram_bot.executor": "Run",
-    "Python.test (1).executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/User/PycharmProjects/test_v3/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Behave.Scenario_10.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_11.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_12.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_4.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_8.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.Scenario_9.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.add_a_project.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.change_window.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.community_page.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.community_page.feature:User able add a project via the settings menu.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.contact_page.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.contact_page.feature:User able to open and verify the Contact page.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.lang_change.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.product_search.feature (1).executor&quot;: &quot;Run&quot;,
+    &quot;Behave.product_search.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Behave.title_verification.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add_a_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.change_window.executor&quot;: &quot;Run&quot;,
+    &quot;Python.community_page_steps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.jobber_app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lang_change.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parcing (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.paring (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.paring.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_search.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sample_script.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sc_10_subscr_payment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sc_12_number_verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.telegram_bot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/test_v3/pages&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\test_v3\pages" />
@@ -93,7 +92,7 @@
       <recent name="C:\Users\User\PycharmProjects\intership_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.Scenario_11.feature">
+  <component name="RunManager" selected="Behave.Scenario_12.feature">
     <configuration name="Scenario_10.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
@@ -124,7 +123,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario_4.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+    <configuration name="Scenario_12.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +134,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Scenario_4.feature" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/Scenario_12.feature" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -162,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="telegram_bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sc_12_number_verification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_v3" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,12 +170,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/telegram_bot.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/sc_12_number_verification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Behave.Scenario_12.feature" />
+        <item itemvalue="Python.sc_12_number_verification" />
         <item itemvalue="Behave.Scenario_11.feature" />
         <item itemvalue="Python.sc_10_subscr_payment" />
         <item itemvalue="Behave.Scenario_10.feature" />
-        <item itemvalue="Behave.Scenario_4.feature" />
-        <item itemvalue="Python.telegram_bot" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +313,12 @@
       <workItem from="1726760724391" duration="1795000" />
       <workItem from="1726779827554" duration="5376000" />
       <workItem from="1727048453111" duration="606000" />
-      <workItem from="1727058117763" duration="2787000" />
+      <workItem from="1727058117763" duration="3158000" />
+      <workItem from="1727103016551" duration="96000" />
+      <workItem from="1727111439943" duration="35000" />
+      <workItem from="1727212475937" duration="5116000" />
+      <workItem from="1727219170329" duration="359000" />
+      <workItem from="1727453609552" duration="1082000" />
     </task>
     <servers />
   </component>
@@ -329,15 +333,17 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/intership_project$sample_script.coverage" NAME="sample_script Coverage Results" MODIFIED="1716859504152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project" />
     <SUITE FILE_PATH="coverage/test_v3$paring__1_.coverage" NAME="paring (1) Coverage Results" MODIFIED="1725751750055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/test_v3$Scenario_4_feature.coverage" NAME="Scenario_4.feature Coverage Results" MODIFIED="1727058008989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$community_page_steps.coverage" NAME="community_page_steps Coverage Results" MODIFIED="1723237621252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
-    <SUITE FILE_PATH="coverage/test_v3$Scenario_11_feature.coverage" NAME="Scenario_11.feature Coverage Results" MODIFIED="1727060713558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$Scenario_4_feature.coverage" NAME="Scenario_4.feature Coverage Results" MODIFIED="1727058008989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$Scenario_11_feature.coverage" NAME="Scenario_11.feature Coverage Results" MODIFIED="1727215289164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$sc_12_number_verification.coverage" NAME="sc_12_number_verification Coverage Results" MODIFIED="1727217072921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$Scenario_8_feature.coverage" NAME="Scenario_8.feature Coverage Results" MODIFIED="1724635304197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$title_verification_feature.coverage" NAME="title_verification.feature Coverage Results" MODIFIED="1724426606811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1716863363627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inter_project/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$contact_page_feature_User_able_to_open_and_verify_the_Contact_page.coverage" NAME="contact_page.feature:User able to open and verify the Contact page Coverage Results" MODIFIED="1722984484972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$product_search_feature__1_.coverage" NAME="product_search.feature (1) Coverage Results" MODIFIED="1722827963779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/intership_project$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1716863370702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/test_v3$Scenario_12_feature.coverage" NAME="Scenario_12.feature Coverage Results" MODIFIED="1727453794003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/test_v3$product_search.coverage" NAME="product_search Coverage Results" MODIFIED="1721526857798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/steps" />
     <SUITE FILE_PATH="coverage/test_v3$parcing__1_.coverage" NAME="parcing (1) Coverage Results" MODIFIED="1725472362726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/test_v3$jobber_app.coverage" NAME="jobber_app Coverage Results" MODIFIED="1725748407073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/tests" />
